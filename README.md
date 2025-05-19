@@ -19,3 +19,36 @@ Clone o repositório:
 ```bash
 git clone https://github.com/AlexSilva-SNO/metatron.git
 cd metatron
+```
+
+Instale as dependências necessárias:
+
+```bash
+go mod init metatron
+go mod tidy
+```
+
+Execute o script com o domínio desejado:
+
+```bash
+go run metatron.go --domain exemplo.com
+```
+## 📋 Exemplo de resultados:
+Os resultados serão salvos na pasta results/exemplo.com, incluindo:
+
+Subdomínios encontrados
+
+URLs analisadas
+
+Vetores XSS detectados
+
+Logs completos da execução
+
+## 📚 Referências Acadêmicas:
+Este projeto foi desenvolvido como parte do meu Trabalho de Conclusão de Curso (TCC), com foco na segurança web e automação.
+
+## 📝 Licença:
+Este projeto é licenciado sob a licença MIT - veja o arquivo LICENSE para detalhes.
+
+## 📞 Contato:
+Alex Patrik da Silva – alex.silva1@unemat.br
