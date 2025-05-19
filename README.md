@@ -1,4 +1,4 @@
-# Metatron XSS Scanner 🚀
+# Metatron 🎯
 
 Este projeto apresenta um script automatizado desenvolvido em Go para reconhecimento de subdomínios, verificação de disponibilidade HTTP, coleta de URLs e detecção automatizada de vulnerabilidades do tipo Cross-Site Scripting (XSS).
 
@@ -17,5 +17,5 @@ Este projeto apresenta um script automatizado desenvolvido em Go para reconhecim
 Clone o repositório:
 
 ```bash
-git clone https://github.com/seuusuario/metatron-xss-scanner.git
-cd metatron-xss-scanner
+git clone https://github.com/AlexSilva-SNO/metatron.git
+cd metatron
